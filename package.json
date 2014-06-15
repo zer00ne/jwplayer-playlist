@@ -1,0 +1,22 @@
+{
+    "name": "jwplayer.playlist",
+    "version": "0.0.0",
+    "description": "A JWPlayer plugin to simulate a dynamic playlist.",
+    "main": "build/jwplayer.playlist.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/audetpascale/jwplayer-playlist.git"
+    },
+    "keywords": [
+        "jwplayer",
+        "playlist"
+    ],
+    "author": "Pascale Audet <audetpascale@gmail.com>",
+    "license": "CC BY-NC-SA 3.0",
+    "bugs": {
+        "url": "https://github.com/audetpascale/jwplayer-playlist/issues"
+    }
+}
