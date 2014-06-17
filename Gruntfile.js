@@ -12,11 +12,20 @@ module.exports = function (grunt) {
                     externs: 'externs/jwplayer.js'
                 }
             }
+        },
+        jsdoc: {
+            dist: {
+                src: 'src/*.js',
+                options: {
+                    destination: 'doc'
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-closure-compiler');
+    grunt.loadNpmTasks('grunt-jsdoc');
 
-    grunt.registerTask('default', ['closure-compiler']);
+    grunt.registerTask('default', ['closure-compiler', 'jsdoc']);
 
 };
