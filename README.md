@@ -1,6 +1,28 @@
 # JWPlayer Playlist
 
-A JWPlayer plugin to simulate a dynamic playlist.
+A [JWPlayer](http://www.jwplayer.com/) plugin to simulate a dynamic playlist.
+
+## Usage
+
+Make sure you have a valid JWPlayer.
+
+Declare the plugin in your player setup:
+
+```js
+jwplayer(...).setup({
+    ...
+    plugins: {
+        'path/to/jwplayer.playlist.js': {}
+    },
+    ...
+});
+```
+
+Call plugin functions:
+
+```js
+jwplayerPlaylist.getPlaylist();
+```
 
 ## Documentation
 
