@@ -13,7 +13,12 @@
     ],
     "license": "CC BY-NC-SA 3.0",
     "ignore": [
+        "doc",
+        "externs",
         "node_modules",
-        "tests"
+        "src",
+        "tests",
+        "Gruntfile.js",
+        "package.json"
     ]
 }

@@ -2,6 +2,14 @@
 
 A [JWPlayer](http://www.jwplayer.com/) plugin to simulate a dynamic playlist.
 
+## Installation
+
+You can manually download the [plugin](build/jwplayer.playlist.js) or install the package by [Bower](http://bower.io/) to your project.
+
+```bash
+bower install jwplayer.playlist
+```
+
 ## Usage
 
 Make sure you have a valid JWPlayer.
