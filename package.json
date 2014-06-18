@@ -1,6 +1,6 @@
 {
     "name": "jwplayer.playlist",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A JWPlayer plugin to simulate a dynamic playlist.",
     "main": "build/jwplayer.playlist.js",
     "scripts": {
