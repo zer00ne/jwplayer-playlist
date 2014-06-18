@@ -4,7 +4,7 @@
     "description": "A JWPlayer plugin to simulate a dynamic playlist.",
     "main": "build/jwplayer.playlist.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"In a browser, open `tests/index.html`.\" && exit 1"
     },
     "repository": {
         "type": "git",
@@ -18,5 +18,11 @@
     "license": "CC BY-NC-SA 3.0",
     "bugs": {
         "url": "https://github.com/audetpascale/jwplayer-playlist/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-closure-compiler": "0.0.21",
+        "grunt-contrib-qunit": "~0.5.1",
+        "grunt-jsdoc": "~0.5.4"
     }
 }
