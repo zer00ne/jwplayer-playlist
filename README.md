@@ -43,4 +43,4 @@ It is available under `doc/`, and [GitHub Pages](http://audetpascale.github.io/j
 
 ## License
 
-Licensed under the [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/), as JWPlayer.
+Licensed under the [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
