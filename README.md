@@ -1,5 +1,9 @@
 # JWPlayer Playlist
 
+[![Bower version](https://badge.fury.io/bo/jwplayer.playlist.svg)](http://badge.fury.io/bo/jwplayer.playlist)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+
 A [JWPlayer](http://www.jwplayer.com/) plugin to simulate a dynamic playlist.
 
 ## Installation
